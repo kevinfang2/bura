@@ -216,8 +216,21 @@ main {
   display: flex;
   padding-top: 8vmax;
 }
+
 .wrapper {
   width: 50%;
+}
+
+@media (max-width: 1025px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 70%;
+  }
 }
 
 section {
