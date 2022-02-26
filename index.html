@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <title>Bura</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- <link href="assets/img/favicon.png" rel="icon" /> -->
 
     <!-- Google Fonts -->
     <link
@@ -18,8 +20,6 @@
       rel="stylesheet"
     />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
@@ -29,92 +29,61 @@
   </head>
 
   <body>
-    <header id="header" class="fixed-top-2">
-      <div class="d-flex align-items-center">
-        <h1 class="logo me-auto"><a href="index.html">Bura</a></h1>
-        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto" href="index.html">About</a></li>
-            <li>
-              <a class="nav-link scrollto" href="non-profit.html">Non-Profit</a>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <h1 class="logo logo-mobile me-auto">
+            <a href="index.html">Bura</a>
+          </h1>
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
       </div>
-    </header>
-    <!-- End Header -->
+      <div class="nav-spacing">
+        <h1 class="logo logo-desktop me-auto">
+          <a href="index.html">Bura</a>
+        </h1>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="nonprofit.html">Non-profit</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- </div> -->
+    </nav>
 
     <main id="main">
       <div class="wrapper">
         <section id="about" class="about">
           <div>
             <div class="section-title">
-              <h2>About Us</h2>
+              <h2>Democratizing Digital and Crypto Access</h2>
             </div>
             <div class="section-subtitle">
               <h4>
-                Providing 1:1 access to digital devices for creditless
-                peri-rural and rural populations in Africa
+                Bura is providing 1:1 access to digital devices for creditless
+                peri-rural and rural populations in West Africa
               </h4>
             </div>
-
-            <div class="row content">
-              <p>
-                In Ghana, unemployment among the youth (persons aged 15-35) is
-                at 12.1%. Although Digital Accessibility is essential for
-                education and financial inclusion, many Ghanaians are not
-                connected.
-                <br />
-                <br />
-                We operate digital hubs educate local workers on crypto and
-                play-to-earn games in underserved regions of Ghana
-              </p>
-            </div>
           </div>
         </section>
-
-        <section id="about" class="about">
-          <div>
-            <div class="section-title">
-              <h2>We're hiring!</h2>
-            </div>
-          </div>
-        </section>
-
-        <section id="contact" class="contact">
-          <div>
-            <div class="row">
-              <div class="content">
-                <div class="info">
-                  <div class="address">
-                    <p>A108 Adam Street, New York, NY 535022</p>
-                  </div>
-
-                  <div class="email">
-                    <p>maasedigital.hub@gmail.com</p>
-                  </div>
-
-                  <div class="phone">
-                    <p>+233 24 163 9823</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- End Contact Section -->
       </div>
     </main>
-    <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
     <footer id="footer"></footer>
 
-    <!-- Template Main JS File -->
-    <!-- <script src="assets/js/main.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
