@@ -122,6 +122,23 @@ h6 {
   display: block;
 }
 
+.section-title h2 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #fff;
+}
+.section-subtitle h4 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  color: #fff;
+}
+
 @media (max-width: 600px) {
   .logo-mobile {
     float: left;
@@ -141,11 +158,14 @@ h6 {
   .navbar-inverse .navbar-nav {
     float: none;
   }
-}
-
-@media (max-width: 600px) {
   .wrapper {
     width: 70%;
+  }
+  .section-title h2 {
+    font-size: 40px;
+  }
+  .section-subtitle h4 {
+    font-size: 20px;
   }
 }
 
@@ -198,22 +218,7 @@ section {
 .section-title {
   text-align: center;
 }
-.section-title h2 {
-  font-size: 50px;
-  font-weight: normal;
-  margin-bottom: 15px;
-  padding-bottom: 20px;
-  position: relative;
-  color: #fff;
-}
-.section-subtitle h4 {
-  font-size: 25px;
-  font-weight: normal;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-  position: relative;
-  color: #fff;
-}
+
 p {
   font-size: 18px;
   font-weight: 200;
@@ -233,4 +238,8 @@ p {
 .solution .sol-image {
   padding: 10px;
   width: 45%;
+}
+
+#footer {
+  height: 100px;
 }
