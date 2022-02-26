@@ -44,16 +44,20 @@ h6 {
 }
 
 .logo {
-  font-size: 30px;
-  line-height: 1;
-  font-weight: 500;
+  /* font-size: 30px; */
+  /* line-height: 1; */
+  /* font-weight: 500; */
+  width: 150px;
   letter-spacing: 2px;
   text-transform: uppercase;
   display: inline-block;
   vertical-align: top;
 }
-.logo a {
-  color: #fff;
+.nav-spacing a {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .logo img {
   max-height: 40px;
